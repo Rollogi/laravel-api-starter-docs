@@ -1,0 +1,10 @@
+allowBuilds:
+  sharp: true
+  '@parcel/watcher': false
+  '@tailwindcss/oxide': false
+  esbuild: false
+  unrs-resolver: false
+  vue-demi: false
+  # wrangler dependency; its install script only validates the local runtime binary,
+  # which the static-assets deploy never uses
+  workerd: false
